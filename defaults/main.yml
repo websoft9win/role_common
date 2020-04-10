@@ -34,4 +34,3 @@ common_vc_meta:
 
 # switch
 common_install_vc: True
-common_install_dbforge: True
