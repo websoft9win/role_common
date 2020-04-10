@@ -54,7 +54,7 @@
 - name: Install notepad-plus-plus
   win_package:
     path: "{{common_notepad_download}}"
-    product_id: notepad-plus-plus
+    product_id: notepad++
     arguments:
     - /S
 
@@ -89,7 +89,7 @@
       product_id: "{{item.value.id}}"
       arguments: /q /NORESTART
       state: present
-    with_dict: "{{{common_vc_meta}}"
+    with_dict: "{{common_vc_meta}}"
 
   when: common_install_vc
 
