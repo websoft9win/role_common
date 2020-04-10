@@ -1,6 +1,5 @@
 common_7zip_download: "https://www.7-zip.org/a/7z1900-x64.msi"
 common_notepad_download: "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe"
-common_dbforge_download: "http://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/apps/Windows/dbforgemysql81exp.exe"
 common_chrome_download: "http://libs.websoft9.com/apps/Windows/ChromeStandaloneSetup64.exe"
 
 # # VC++ origin address
