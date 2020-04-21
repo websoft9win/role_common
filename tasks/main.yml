@@ -15,7 +15,7 @@
       - CriticalUpdates
       - UpdateRollups
     reboot: yes
-    reboot_timeout: 3600
+    reboot_timeout: 300
 
 - name: Ping Test
   win_ping:
@@ -92,3 +92,8 @@
     with_dict: "{{common_vc_meta}}"
 
   when: common_install_vc
+
+- name: Install .Net Framwork 3.5
+  win_feature:
+    name: NET-Framework-Core
+    state: present
